@@ -1,0 +1,319 @@
+body{
+    width:1280px;
+    margin:0px auto; /*centralise the page*/
+    font-family: "Bahnschrift", sans-serif;
+    padding:0px;
+
+}
+
+#nav1 img{
+    position:relative;
+    left: 45%;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    width:138px;
+    height:127px;
+}
+
+#nav2{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#nav2 input[type=text]{
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #5b5b5b;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#nav2 input[type=text]:focus {
+    width: 60%;
+}
+
+#nav3{
+    position:absolute;
+    top: 110px;
+    right:125px;
+}
+
+#out{
+    display: block;
+    width:auto;
+    position:absolute;
+    left:1300px;
+    top:120px;
+}
+
+#out a{
+    text-decoration: none;
+    color:white;
+}
+
+#out a:hover, #out a:active{
+    color:white;
+    opacity:1;
+}
+
+#nav4{
+    width:500px;
+    margin:0 auto;
+    color:black;
+    text-decoration: none;
+    font-size:20px;
+    display:flex;
+    justify-content:space-between;
+}
+
+#nav4 li
+{
+	margin:0;
+	padding:0;
+	list-style-type: none; 
+}
+
+#nav4 li a
+{
+    color:black;
+    font-size:20px;
+	text-decoration: none;
+}
+
+footer{
+    background-color:#353535;
+    text-align: center;
+}
+
+footer #f1{
+    padding-top: 20px;
+    color:white;
+}
+
+footer #f2{
+    margin-top: -5px;
+    padding-bottom: 20px;
+    color:white;
+}
+
+footer #f3{
+    color:white;
+    margin-top: -5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:25px;
+    background-color: #f9f9f9;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size:15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#nav3 a:hover, #nav4 li a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+
+.dropdown-content a:hover {
+    background-color: #878787;
+}
+#rbtn a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+        /* Full-width input fields */
+        input[type=text], input[type=password], input[type=number] {
+            width: 98%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        /* Add a background color when the inputs get focus */
+        input[type=text]:focus, input[type=password]:focus, input[type=number]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        /* Set a style for all buttons */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 18px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+#rbtn a:hover{
+    text-decoration: none;
+    opacity:1;
+    color:white;
+}
+
+        button:hover {
+            opacity:1;
+        }
+
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+            background-color: #f44336;
+        }
+
+        /* Float cancel and signup buttons and add an equal width */
+        .cancelbtn, .signupbtn {
+          float: left;
+          width: 10%;
+        }
+
+        /* Add padding to container elements */
+        .container {
+            padding: 16px;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: #474e5d;
+            padding-top: 50px;
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+        /* The Close Button (x) */
+        .close {
+            position: absolute;
+            right: 35px;
+            top: 15px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #f1f1f1;
+        }
+
+        .close:hover, .close:focus {
+            color: #f44336;
+            cursor: pointer;
+        }
+
+        /* Clear floats */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+.navbar{
+    background-color:#3b5998;
+    overflow: hidden;
+    height:60px;
+    width:58px;
+    position:relative;
+    left:35px;
+    bottom:152px;
+}
+
+.navbar a{
+    float:left;
+    display:block;
+    padding: 14px;
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color:#000;
+}
+
+.side-nav{
+    height:100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color:#111;
+    opacity:0.9;
+    overflow-x: hidden;
+    padding-top:60px;
+    transition:0.5s;
+}
+
+.side-nav a{
+    padding:10px 10px 10px 30px;
+    text-decoration: none;
+    font-size:18px;
+    color:#ccc;
+    display:block;
+    transition:0.3s;
+}
+
+.side-nav a:hover{
+   color:#fff;
+}
+
+.side-nav .btn-close{
+    position:absolute;
+    top:0;
+    right:22px;
+    font-size:36px;
+    margin-left: 50px;
+}
+
+
+@media(min-width:480px)
+{
+    .navbar{display: none;}
+    .side-nav{display:none;}
+}
+
+@media(max-width:480px)
+{
+    #nav4{display:none;}
+}
+
+#find{
+    width:auto;
+    position:absolute;
+    top:110px;
+    left:260px;
+}

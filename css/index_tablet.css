@@ -1,0 +1,118 @@
+body{
+    overflow-x: hidden;
+}
+
+#nav1 img{
+    width: 90px;
+    height: 90px;
+    left:350px;
+}
+#nav2{
+    position:relative;
+    left: 30px;    
+}
+#nav2 input[type=text]{
+    width: 80px;
+    height: 40px;
+}
+
+#nav2 input[type=text]:focus {
+    width: 8%;
+}
+
+#nav3{
+    position: relative;
+    top:-75px;
+    left:540px;
+}
+
+#nav4{
+    width:500px;
+    margin:0 auto;
+    font-size:20px;
+    position:relative;
+    right:270px;
+    bottom:25px;
+}
+
+.dropdown-content{
+    position:absolute;
+    left:-188px;
+    top:-5px;
+}
+
+#s1{
+    background-image: url(../images/tablet/apartment.png);
+    background-repeat: no-repeat;
+    width:768px;
+    height:420px;
+}
+
+#s2 h3{
+    position:relative;
+    right: 240px;
+}
+
+#flexcontainer{
+    position:relative;
+    left: 80px;
+    width:600px;
+    height:410px;
+    float:left;
+}
+
+#s3{
+    clear:left;
+}
+
+#s3_1{
+    position: relative;
+    right:181px;
+}
+
+#s3_2{
+    position: relative;
+    right:405px;
+    font-size:15px;
+}
+
+#s4{
+    background-image:url(../images/tablet/clean.png);
+    background-repeat: no-repeat;
+    width:766px;
+}
+
+#s4 a{
+    left: 300px;
+}
+
+footer{
+    width:768px;
+}
+
+input[type=text], input[type=password], input[type=number] {
+            width: 96%;
+        }
+
+#nav3 button{
+    width:auto;
+}
+
+#s5 h3{
+    position:relative;
+    right:250px;
+}
+
+#n{
+    width:344px;
+    height:202px;
+    position: relative;
+    right:400px;
+}
+
+#c{
+    width:344px;
+    height:201px;
+    position: relative;
+    right:120px;
+}

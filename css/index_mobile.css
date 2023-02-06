@@ -1,0 +1,113 @@
+#nav1 img{
+    width:106px;
+    height:106px;
+    left: 195px;
+}
+
+#nav2{
+    bottom:20px;
+}
+
+#s1{
+    background-image: url(../images/mobile/apartment.png);
+    background-repeat: no-repeat;
+    width:480px;
+    height:302px;
+    margin-top: -50px;
+}
+
+#s2 h3{
+    right: 400px;
+}
+
+#flexcontainer{
+    left: 105px;
+    width:280px;
+    height:450px;
+}
+
+#s3{
+    position:relative;
+    top: 360px;
+    left:60px;
+}
+
+#s3_1{
+    width:344px;
+    height:366px;
+}
+
+#s3_2{
+    position:relative;
+    top: 345px;
+    right:748px;
+}
+
+#s3_2 h3{
+    position:relative;
+    left:65px;
+}
+
+#s3_2 p{
+    position:relative;
+    bottom:10px;
+}
+
+#s4{
+    margin-top:300px;
+    position:relative;
+    top:660px;
+    background-image:url(../images/mobile/cleaning.png);
+    background-repeat: no-repeat;
+    
+}
+
+#s4 a{
+    left:160px;
+}
+
+footer{
+    position:relative;
+    top:680px;
+    width:480px;
+    height: 115px;
+}
+
+#nav2{
+    position:relative;
+    left:350px;
+}
+
+#nav3{
+    position:relative;
+    left:35px;
+    top:10px;
+}
+
+#nav3 button{
+    width:auto;
+}
+
+
+input[type=text], input[type=password], input[type=number] {
+            width: 92%;
+}
+
+#s5{
+    position:relative;
+    top:670px;
+}
+
+#s5 h3{
+    position:relative;
+    right:400px;
+}
+
+#c{
+    right:80px;
+}
+
+#n{
+    top:240px;
+    right:723px;
+}

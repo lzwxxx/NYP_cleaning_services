@@ -1,0 +1,103 @@
+#nav4 #services{
+    color: gray;
+}
+
+#s_1{
+    background:url(../images/res.jpg);
+    width:1280px;
+    height:540px;
+    margin-top:-10px;
+}
+
+#s_1 h1{
+    color:white;
+    font-size:35px;
+    text-shadow: 2px 2px 4px #000000;
+    position:relative;
+    top:230px;
+    left:500px;
+}
+
+#kitchen img{
+    width:160px;
+    height:128px;
+}
+
+#bathroom img{
+    width:182px;
+    height:125px;
+}
+
+#room img{
+    height:125px;
+}
+
+#others img{
+    height:125px;
+    width:125px;
+}
+
+#s2 h2{
+    text-align:center;
+    font-size:25px;
+    margin: 30px 0px;
+}
+
+.s3{
+    display:flex;
+    justify-content: space-around;
+}
+
+.s3 h3{
+    text-align:center;
+}
+
+.s3 li{
+    line-height: 27px;
+}
+
+#pic img{
+    position:relative;
+    left:40px;
+}
+
+#kitchen img{
+    position: relative;
+    left:62px;
+}
+
+#pic1{
+    margin:20px 0px;
+}
+#pic1 img{
+    position:relative;
+    left:50px;
+}
+
+#others img{
+    position: relative;
+    left:90px;
+}
+
+table, th, td{
+    width:70%;
+    border-collapse: collapse;
+    padding:10px;
+    font-size:18px;
+    text-align: left;
+}
+
+tr:nth-child(even) {background-color: gainsboro;}
+
+
+#plans{
+    margin:40px 0px;
+    display:flex;
+    justify-content:center;
+}
+
+hr{
+    height:1px;
+    color: black;
+    background-color: black;
+}

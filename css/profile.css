@@ -1,0 +1,38 @@
+
+#nav3{
+    position:absolute;
+    top: 120px;
+    right:125px;
+}
+
+#out{
+    position:absolute;
+    left:1300px;
+    top:120px;
+}
+
+#nav4 #profile{
+    color: gray;
+}
+
+#update{
+    margin-top:40px;
+}
+
+#update form{
+    position:relative;
+    left:250px;
+}
+
+#update h2{
+    text-align:center;
+}
+
+#update input[type=text], #update input[type=password]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

@@ -1,0 +1,81 @@
+#nav4 #services{
+    color: gray;
+}
+
+#s_1 h1{
+    color:white;
+    font-size:35px;
+    text-shadow: 2px 2px 4px #000000;
+    position:relative;
+    top:160px;
+    left:500px;
+    width:320px;
+}
+
+#s_1{
+    background: url(../images/office.jpg);
+    width:1280px;
+    height:473px;
+}
+
+#s1{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    width:1000px;
+    position:relative;
+    left:140px;
+}
+
+.s{
+    border: 2px solid black;
+    padding:0px 25px 0px 0px;
+}
+
+.s h2, .s h4{
+    text-align:center;
+    position:relative;
+    left:15px;
+}
+
+hr{
+    height:1px;
+    background-color:gainsboro;
+    margin-top: 70px;
+}
+
+#s2 ul li{
+    line-height:30px;
+    position:relative;
+    left:80px;
+    font-size:16px;
+}
+
+#s2 h2{
+    text-align:center;
+    font-size:25px;
+    margin: 30px 0px;
+}
+
+table, th, td{
+    width:70%;
+    border-collapse: collapse;
+    padding:10px;
+    font-size:18px;
+    text-align: left;
+}
+
+tr:nth-child(even) {background-color: gainsboro;}
+
+
+#plans{
+    margin:40px 0px;
+    display:flex;
+    justify-content:center;
+}
+
+hr{
+    height:1px;
+    color: black;
+    background-color: black;
+}

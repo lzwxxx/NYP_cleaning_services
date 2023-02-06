@@ -1,0 +1,72 @@
+#nav4 #services{
+    color: gray;
+}
+
+footer{
+    clear:both;
+}
+
+#s1_1{
+    background: url(../images/spring.jpg);
+    width:1280px;
+    height:538px;
+}
+
+ #s1_1 h1{
+    color:white;
+    font-size:35px;
+    text-shadow: 2px 2px 4px #000000;
+    position:relative;
+    top:250px;
+    left:400px;
+} 
+
+#s2 ul li{
+    line-height:30px;
+    font-size:16px;
+}
+
+#s2 h2{
+    text-align:center;
+    font-size:25px;
+    margin: 20px 0px;
+}
+
+#s2_1{
+    position:relative;
+    left:150px;
+}
+
+.s2_2 {
+  float: left;
+  width: 500px;
+  padding: 5px;
+}
+
+#s2{
+    margin:30px 0px;
+}
+
+table, th, td{
+    width:70%;
+    border-collapse: collapse;
+    padding:10px;
+    font-size:18px;
+    text-align: left;
+}
+
+tr:nth-child(even) {background-color: gainsboro;}
+
+
+#plans{
+    margin:40px 0px;
+    display:flex;
+    justify-content:center;
+}
+
+hr{
+    height:1px;
+    color: black;
+    background-color: black;
+}
+
